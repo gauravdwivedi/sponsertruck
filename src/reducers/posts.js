@@ -1,4 +1,5 @@
-export default function posts (state=[]){
+
+export default function posts(state = ["ok"]) {
 
     return state;
 }
