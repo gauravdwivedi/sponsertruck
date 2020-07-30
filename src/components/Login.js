@@ -45,10 +45,10 @@ class Login extends Component {
                         onChange={
                             this.handleEmailChange
                         }
-
                         value={this.state.email}
                     />
                 </div>
+
                 <div className="field">
                     <input className="password" placeholder="password" required
                         //  ref={this.passwordInputRef} 
@@ -56,6 +56,7 @@ class Login extends Component {
                         value={this.state.password}
                     />
                 </div>
+
                 <div className="field">
                     <button onClick={this.handleFormSubmit}>Login</button>
                 </div>
